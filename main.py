@@ -1,13 +1,6 @@
-import sys
-
-# ЭТИ ПУТИ ДОЛЖНЫ БЫТЬ ТОЧНЫМИ
-sys.path.insert(0, 'modules/storage')
-sys.path.insert(0, 'modules/logic')
-sys.path.insert(0, 'modules/ui')
-
-from storage import save_history, load_history
-from logic import calculate
-from ui import get_numbers, show_result, show_history
+from modules.storage import save_history, load_history
+from modules.logic import calculate
+from modules.ui import get_numbers, show_result, show_history
 
 print("=" * 40)
 print("     КАЛЬКУЛЯТОР")
@@ -29,3 +22,4 @@ while True:
         show_history(load_history())
     elif choice == '3':
         break
+    input("Нажмите Enter...")
