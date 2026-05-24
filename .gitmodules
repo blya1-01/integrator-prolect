@@ -1,0 +1,9 @@
+[submodule "modules/storage"]
+	path = modules/storage
+	url = https://github.com/blya1-01/data-storage-module.git
+[submodule "modules/logic"]
+	path = modules/logic
+	url = https://github.com/blya1-01/business-logic-module.git
+[submodule "modules/ui"]
+	path = modules/ui
+	url = https://github.com/blya1-01/the-user-interface-module.git
