@@ -1,9 +1,9 @@
 import sys
 
 # ЭТИ ПУТИ ДОЛЖНЫ БЫТЬ ТОЧНЫМИ
-sys.path.insert(0, 'modules/storage')
-sys.path.insert(0, 'modules/logic')
-sys.path.insert(0, 'modules/ui')
+sys.path.insert(0, 'storage')
+sys.path.insert(0, 'logic')
+sys.path.insert(0, 'ui')
 
 from storage import save_history, load_history
 from logic import calculate
